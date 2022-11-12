@@ -118,8 +118,8 @@ footer {
   gap: 70px;
 }
 
-.footer-address,
-.footer-contact {
+.footer-address-link,
+.footer-contact-link {
   text-decoration: none;
   font-style: normal;
   color: #ffffff;
@@ -127,15 +127,15 @@ footer {
   line-height: 1.71;
 }
 
-.footer-contact {
+.footer-contact-link {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
 }
 
-.footer-address:hover,
-.footer-address:focus,
-.footer-contact:hover,
-.footer-contact:focus {
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
   color: var(--accent-color);
 }
 

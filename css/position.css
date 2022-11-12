@@ -115,9 +115,10 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-.footer-address-item {
-  display: block;
-  margin-bottom: 9px;
+.footer-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 /* Body */
