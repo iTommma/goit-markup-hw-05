@@ -656,7 +656,8 @@ footer .logo {
   overflow: auto;
 }
 
-.portfolio-item:hover .portfolio-top-text {
+.portfolio-item:hover .portfolio-top-text,
+.portfolio-item:focus .portfolio-top-text {
   transform: translateY(0);
 }
 
@@ -731,16 +732,38 @@ footer .logo {
 
 .modal-button {
   background-color: inherit;
+  border: 1px solid rgba(0,0,0, 0.1);
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  border: 0;
 
   position: absolute;
-    right: 8px;
-    top: 8px;
+  right: 8px;
+  top: 8px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  border-color: var(--accent-color);
+}
+
+.modal-close-icon {
+  fill: #000000;
+
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover .modal-close-icon,
+.modal-button:focus .modal-close-icon {
+  fill: var(--accent-color);
 }
