@@ -244,9 +244,9 @@ footer .logo {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
+
   color: var(--primary-white-color);
-    
+
   margin-bottom: 20px;
 }
 
@@ -370,6 +370,31 @@ footer .logo {
   justify-content: space-between;
 }
 
+.specialization-item {
+  position: relative;
+}
+
+.specialization-top-container {
+  background: rgba(47, 48, 58, 0.8);
+
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.specialization-top-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  padding: 27px;
+}
+
 /* ---------------MAIN team */
 .team-section {
   padding-top: 94px;
@@ -472,6 +497,7 @@ footer .logo {
 .footer-soc-link:focus {
   background-color: #2196F3;
 }
+
 /* ********************************* */
 
 /* ---------------MAIN clients */
@@ -583,7 +609,7 @@ footer .logo {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-top-wrap{
+.portfolio-top-wrap {
   position: relative;
   overflow: hidden;
 
