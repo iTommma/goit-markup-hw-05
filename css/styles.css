@@ -630,12 +630,7 @@ footer .logo {
 .portfolio-top-wrap {
   position: relative;
   overflow: hidden;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
-
 
 .portfolio-top-text {
   font-size: 18px;
@@ -647,18 +642,18 @@ footer .logo {
   padding: 24px;
   height: 100%;
 
+  display: flex;
+  align-items: center;
+
   position: absolute;
   top: 0;
-  /* top: 63px;
-  left: 24px; */
-  transform: translateY(100%);
+  transform: translateY(101%);
 
   transition: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   overflow: auto;
-
 }
 
 .portfolio-item:hover .portfolio-top-text {
